@@ -22,7 +22,7 @@ test('async test', function(done) {
 })
 ```
 
-see more demo in `demo.js`
+see more in [demo](http://chunpu.github.io/tdd/)
 
 ### TODO
 
