@@ -1,16 +1,14 @@
 // below use in nodejs
-var assert = require('assert')
-var test = require('./tdd')
-/*
+//var assert = require('assert')
+//var test = require('./tdd')
 function assert(v, msg) {
     if (v != true) throw Error(msg || v + ' == ' + 'true')
 }
-*/
-test('simple false', function() {
+test('111111', function() {
     assert(false)
 })
 
-test('double done is ok', function(done) {
+test('2222222', function(done) {
   setTimeout(function() {
     assert(true, 'double done')
     done()
@@ -18,16 +16,16 @@ test('double done is ok', function(done) {
   }, 1000)
 })
 
-test('timeout can be catch', function(done) {
+test('33333333', function(done) {
   assert(true, 'expect timeout')
 })
 
-test('async error can be catch', function(done) {
+test('444444', function(done) {
   setTimeout(function() {
-    assert(false, 'async error')
+    assert(false, 'qqqqqqqqqqq')
   }, 1200)
 })
 
-test('simple ok', function() {
+test('5555', function() {
   assert(true)
 })
